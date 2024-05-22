@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const perfilLink = document.getElementById('perfil-link');
     const prestamoLink = document.getElementById('prestamo-link');
   
-    const isLoggedIn = false; // Aquí deberías obtener el estado real del inicio de sesión
+    const isLoggedIn = false; // Aquí se obtiene el estado real del inicio de sesión
   
     function checkLogin(event) {
       if (!isLoggedIn) {
