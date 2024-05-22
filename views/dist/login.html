@@ -6,19 +6,25 @@
 <!-- Include any required CSS stylesheets here -->
 <link rel="stylesheet" href="/stylesheets/stylesolicitudprestamo.css"><!DOCTYPE html>
   <html lang="es">
-    <head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/stylesheets/stylenavbar.css">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/stylesheets/stylenavbar.css">
+      <title>Navbar Mejorado</title>
     </head>
-    <body>
-       <div class="navbar">
-<a href="/" class="active">Inicio</a>
-<a href="perfil" class="active">Perfil</a>
-<a href="solicitarprestamo">Solicitar préstamo</a>
-<a href="versolicitud">Ver solicitud</a>
-<a href="login">Inicio Sesion</a>
-<a href="registro">Registrarse</a>
-</div>
+    <body> 
+      <nav class="navbar">
+        <div class="container"><a class="logo" href="/">Préstamos</a>
+          <ul class="nav-links">
+            <li class="nav-item"><a class="nav-link" href="/">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="/perfil" id="perfil-link">Perfil</a></li>
+            <li class="nav-item"><a class="nav-link" href="/solicitarprestamo" id="prestamo-link">Solicitar Préstamo</a></li>
+            <li class="nav-item"><a class="nav-link" href="/login">Inicio Sesión</a></li>
+            <li class="nav-item"><a class="nav-link" href="/registro">Registrarse</a></li>
+          </ul>
+        </div>
+      </nav>
+      <script src="/javascripts/validateLogin.js"></script>
     </body>
   </html></head>
 <body>
@@ -38,7 +44,6 @@
 <button type="submit">Iniciar Sesion</button>
 </form>
 </div>
-<!-- Include any required JavaScript scripts here -->
 <script src="/scripts/solicitudprestamo.js"></script>
 </body>
 </html></html>
