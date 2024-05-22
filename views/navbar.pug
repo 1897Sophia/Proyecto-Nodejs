@@ -1,0 +1,23 @@
+doctype html
+html(lang='es')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/stylenavbar.css')
+    title Navbar Mejorado
+  body 
+    nav.navbar
+      div.container
+        a(href='/', class='logo') Préstamos
+        ul.nav-links
+          li.nav-item
+            a(href='/', class='nav-link') Inicio
+          li.nav-item
+            a(href='/perfil', class='nav-link', id='perfil-link') Perfil
+          li.nav-item
+            a(href='/solicitarprestamo', class='nav-link', id='prestamo-link') Solicitar Préstamo
+          li.nav-item
+            a(href='/login', class='nav-link') Inicio Sesión
+          li.nav-item
+            a(href='/registro', class='nav-link') Registrarse
+    script(src='/javascripts/validateLogin.js')

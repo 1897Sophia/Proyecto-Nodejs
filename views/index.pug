@@ -1,0 +1,40 @@
+extends layout
+
+block content
+  include navbar
+  link(rel='stylesheet', href='/stylesheets/index.css')
+
+  .hero-section
+    .container
+      h1.bienvenido Bienvenido a nuestro sitio de solicitud de préstamos
+      p En nuestro sitio, ofrecemos préstamos rápidos y convenientes para satisfacer tus necesidades financieras.
+
+  .benefits-section
+    .container
+      h2 Beneficios de pedir préstamos con nosotros
+      
+      .benefits-grid
+        .benefit
+          h3 Proceso Simple
+          p Proceso de solicitud simple y rápido para que obtengas tu préstamo sin complicaciones.
+        .benefit
+          h3 Tasas Competitivas
+          p Ofrecemos tasas de interés competitivas para que puedas acceder a un préstamo con tarifas atractivas.
+        .benefit
+          h3 Flexibilidad en los Plazos
+          p Te ofrecemos flexibilidad en los plazos de pago para que puedas adaptar tu préstamo a tus necesidades financieras.
+        .benefit
+          h3 Atención Personalizada
+          p Nuestro equipo de atención al cliente está aquí para ayudarte en cada paso del proceso de préstamo.
+        .benefit
+          h3 Opciones Personalizadas
+          p Ofrecemos opciones de préstamos personalizadas según tus necesidades específicas.
+        .benefit
+          h3 Rápida Aprobación
+          p Obtén una rápida aprobación de tu préstamo para que puedas tener el dinero que necesitas sin esperas largas.
+
+  .cta-section
+    .container
+      h2 ¿Listo para solicitar tu préstamo?
+      p ¡No esperes más! Solicita hoy mismo y obtén el dinero que necesitas para alcanzar tus objetivos financieros.
+      a(href="/solicitarprestamo", class="btn-cta") Solicitar Préstamo

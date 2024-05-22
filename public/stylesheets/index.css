@@ -1,0 +1,70 @@
+/* Estilos CSS para la página de inicio */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .hero-section {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1.bienvenido {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .benefits-section {
+    padding: 80px 0;
+  }
+  
+  .benefits-section h2 {
+    text-align: center;
+    color: #f0f0f0;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .benefit {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .benefit h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cta-section {
+    background-color: #f0f0f0;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;    
+  }
+  
+  .btn-cta {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-cta:hover {
+    background-color: #0056b3;
+  }
+  
